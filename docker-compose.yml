@@ -1,0 +1,23 @@
+loadbalancer:
+  image: dockercloud/haproxy
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+  ports:
+    - 3000:80
+  links:
+    - api
+    - client
+
+api:
+  build: luces-express
+  restart: always
+  environment:
+    - NODE_ENV=production
+    - VIRTUAL_HOST=luces-api.lopezjuri.com
+
+client:
+  build: luces-react
+  restart: always
+  environment:
+    - NODE_ENV=production
+    - VIRTUAL_HOST=luces.lopezjuri.com
