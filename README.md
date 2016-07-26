@@ -2,7 +2,7 @@
 
 Media lab project using Socket.io and React.js
 
-See demo video at [`media/demo.mp4`](.media/demo.mp4)
+See demo video at [`media/demo.mp4`](media/demo.mp4)
 
 ![preview](./media/preview.png)
 
