@@ -6,6 +6,14 @@ See demo video at [`media/demo.mp4`](.media/demo.mp4)
 
 ![preview](./media/preview.png)
 
+## Components
+
+Each component is in a separate repository:
+
+* [mrpatiwi/luces-express](https://github.com/mrpatiwi/luces-express.git)
+* [mrpatiwi/luces-react](https://github.com/mrpatiwi/luces-react.git)
+* [mrpatiwi/luces-arduino](https://github.com/mrpatiwi/luces-arduino.git)
+
 ## Running
 
 This project requires [Docker](https://www.docker.com/) and [Docker-compose](https://docs.docker.com/compose/)
