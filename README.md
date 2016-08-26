@@ -2,7 +2,7 @@
 
 Media lab project using Socket.io and React.js
 
-See demo video at [`media/demo.mp4`](media/demo.mp4)
+> Video demo: https://www.youtube.com/watch?v=BuzDJwr4O9I
 
 ![preview](./media/preview.png)
 
